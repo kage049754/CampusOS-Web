@@ -1,6 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/+esm';
 const supabase=createClient('https://pgniovlvofvkwjhyoqcg.supabase.co','sb_publishable_UghfMQF0mqMdDL3-i8TvUQ_t3pWFwoe');
 const SITE_URL='https://kage049754.github.io/CampusOS-Web/';
+if(new URLSearchParams(location.search).get('embed')==='android')document.body.classList.add('android-embed');
 let user=null,profile=null,assignment=null,announcements=[];
 const CACHE_NAME='campusos-announcements-v1';
 const CACHE_META_KEY='campusos-announcement-cache-meta';
