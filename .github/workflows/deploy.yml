@@ -28,6 +28,8 @@ jobs:
         run: |
           node --check app.js
           node --check sw.js
+      - name: Check JavaScript syntax
+        run: node --check app.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
