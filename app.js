@@ -1,6 +1,6 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/+esm';
 const supabase=createClient('https://pgniovlvofvkwjhyoqcg.supabase.co','sb_publishable_UghfMQF0mqMdDL3-i8TvUQ_t3pWFwoe');
-const SITE_URL=window.location.origin+window.location.pathname.replace(/\/$/,'')+'/';
+const SITE_URL='https://kage049754.github.io/CampusOS-Web/';
 let user=null,profile=null,assignment=null,announcements=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
