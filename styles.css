@@ -13,3 +13,4 @@ body.android-embed .page.active{display:block}
 body.android-embed .welcome{margin-bottom:16px}
 body.android-embed .card{box-shadow:none}
 @media (prefers-color-scheme:dark){body.android-embed{background:#121417}}
+.editable-asset{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:8px;border:1px solid var(--line);border-radius:12px;margin:7px 0;background:#0a1020}.editable-asset img{width:110px;height:80px;object-fit:cover;border-radius:9px}.editable-asset .attachment{flex:1;margin:0}.compact{margin:0!important}
